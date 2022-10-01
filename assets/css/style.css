@@ -41,8 +41,9 @@ height: fit-content;
   }
 
   @media (max-width: 600px) {
-    .carousel-caption {
-      display: none; /* Hide the carousel text when the screen is less than 600 pixels wide */
+    .cart-info {
+      display: inline; 
+      font: 1rem;
     }
   }
   .bg-1 {
@@ -368,4 +369,8 @@ height: fit-content;
 .cart-total-price {
   color: rgb(230, 228, 228);
   font-size: 1.1em;
+}
+
+@media screen {
+  
 }
