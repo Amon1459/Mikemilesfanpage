@@ -253,7 +253,7 @@
   position: absolute;
   min-height: 1rem;
   background: var(--mainGrey);
-  top: 10px;
+  top: 50px;
   right: 0;
   transition: all 0.3s ease-in-out;
   width: 0;
@@ -263,8 +263,8 @@
 }
 
 .show-cart {
-  width: 20rem;
-  height: 20rem;
+  width: 25rem;
+  height: 50rem;
 }
 
 .cart-row {
