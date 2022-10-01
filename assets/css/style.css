@@ -42,7 +42,7 @@ height: fit-content;
 
   @media (max-width: 600px) {
     .cart-info {
-      display: inline; 
+
       font: 1rem;
     }
   }
