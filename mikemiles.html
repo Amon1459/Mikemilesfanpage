@@ -7,8 +7,13 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" type="text/css" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
+<<<<<<< HEAD
 <link rel="stylesheet" href="Public/assets/css/style.css">       
 <script src="public/assets/js/mikemiles.js" async></script>
+=======
+<link rel="stylesheet" href="public/Assets/css/style.css">
+<script src="public/Assets/js/mikemiles.js" async></script>
+>>>>>>> refs/remotes/origin/main
 <style>
 body, h1,h2,h3,h4,h5,h6 {font-family:"roboto"}
 .w3-row-padding img {margin-bottom: 12px}
@@ -176,51 +181,6 @@ Was a member of the AAU team, the Texas Titans, one of the top programs on the N
     </section>
 
 
-
-  <script>
-    filterSelection('all')
-    function filterSelection(c) {
-      var x, i;
-      x = document.getElementsByClassName("product");
-      if (c == "all") c = "";
-      for (i = 0; i < x.length; i++) {
-        w3RemoveClass(x[i], "show");
-        if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
-      }
-    }
-
-    function w3AddClass(element, name) {
-      var i, arrl, arr2;
-      arr1 = element.className.split(" ");
-      arr2 = name.split(" ");
-      for (i = 0; i < arr2.length; i++) {
-        if (arr1.indexOf(arr2[i]) == -1) { element.className += " " + arr2[i]; }
-      }
-    }
-
-    function w3RemoveClass(element, name) {
-      var i, arr1, arr2;
-      arr1 = element.className.split(" ");
-      arr2 = name.split(" ");
-      for (i = 0; i < arr2.length; i++) {
-        while (arr1.indexOf(arr2[i]) > -1) {
-          arr1.splice(arr1.indexOf(arr2[i]), 1);
-        }
-      }
-      element.className = arr1.join(" ");
-    }
-
-    // Add active class to the current button (highlight it)
-    var btnContainer = document.getElementById("filterButtons");
-    var btns = btnContainer.getElementsByClassName("btn");
-    for (var i = 0; i < btns.length; i++) {
-      btns[i].addEventListener("click", function () {
-        var current = document.getElementsByClassName("active");
-        current[0].className = current[0].className.replace(" active", "");
-        this.className += " active";
-      });
-    }
-  </script>
 
 
   
