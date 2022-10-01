@@ -7,7 +7,7 @@
    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     letter-spacing: 3px;      
     color: rgb(244, 243, 243);
-    Font: 10px;
+    Font: 8px;
 
   }
   p{
@@ -43,7 +43,8 @@ height: fit-content;
   @media (max-width: 600px) {
     .cart-info {
 
-      font: 1rem;
+      display: inline;
+      margin-top: 10px;
     }
   }
   .bg-1 {
@@ -264,7 +265,7 @@ height: fit-content;
 .show-cart {
   width: 35rem;
   padding: 2rem 1.5rem;
-  height: 34rem;
+  height: 40rem;
 }
 
 .cart-row {
@@ -371,6 +372,3 @@ height: fit-content;
   font-size: 1.1em;
 }
 
-@media screen {
-  
-}
