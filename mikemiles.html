@@ -1,0 +1,276 @@
+<html>
+<head>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
+<link rel="stylesheet" href="public/css/style.css">
+<script src="public/js/mikemiles.js" async></script>
+<style>
+body, h1,h2,h3,h4,h5,h6 {font-family:"roboto"}
+.w3-row-padding img {margin-bottom: 12px}
+/* Set the width of the sidebar to 120px */
+.w3-sidebar {width: 120px;background: rgb(4, 4, 4);}
+/* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
+#main {margin-left: 120px}
+/* Remove margins from "page content" on small screens */
+@media only screen and (max-width: 600px) {#main {margin-left: 0}}
+</style>
+</head>
+<body class="w3-black">
+
+<!-- Icon Bar (Sidebar - hidden on small screens) -->
+<nav class="w3-sidebar  w3-small w3-hide-small w3-center">
+  <!-- Avatar image in top left corner -->
+
+  <a href="#" class="w3-bar-item w3-button w3-padding-large w3-black">
+    <i class="fa fa-home w3-xxlarge"></i>
+    <p>HOME</p>
+  </a>
+  <a href="#about" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-user w3-xxlarge"></i>
+    <p>BIO</p>
+  </a>
+  <a href="#photos" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-eye w3-xxlarge"></i>
+    <p>SHOP</p>
+  </a>
+  <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-envelope w3-xxlarge"></i>
+    <p>CONTACT</p>
+  </a>
+</nav>
+  <!--CART-->
+  <div id="cart-info" class="nav-info cart-info">
+    <span class="cart-info__icon"><i class="fas fa-shopping-cart"></i></span>
+    <p><span id="item-count">0 </span> items
+    </p>
+  </div>
+
+  <section class="cart" id="cart">
+    <h1 class="section-header">CART</h1>
+    <div class="cart-row">
+      <span class="cart-item cart-header cart-column">ITEM</span>
+      <span class="cart-price cart-header cart-column">PRICE</span>
+      <span class="cart-quantity cart-header cart-column">QUANTITY</span>
+    </div>
+    <div class="cart-items">
+    </div>
+    <div class="cart-total">
+      <strong class="cart-total-title">Total</strong>
+      <span class="cart-total-price">$0</span>
+    </div>
+
+    <button class="btn btn-primary btn-purchase" type="button">PURCHASE</button>
+  </section>
+
+</div>
+      
+<!-- Navbar on small screens (Hidden on medium and large screens) -->
+<div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
+  <div class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
+    <a href="#" class="w3-bar-item w3-button" style="width:25% !important">HOME</a>
+    <a href="#about" class="w3-bar-item w3-button" style="width:25% !important">ABOUT</a>
+    <a href="#photos" class="w3-bar-item w3-button" style="width:25% !important">PHOTOS</a>
+    <a href="#contact" class="w3-bar-item w3-button" style="width:25% !important">CONTACT</a>
+  </div>
+</div>
+
+  <div class="w3-padding-large" id="main">
+    <!-- Header/Home -->
+    <header class="w3-container w3-padding-32 w3-center w3-black" Float="center"id="home">
+      <h3 class="w3-jumbo"><span class="w3-hide-small"></span> MIKE MILES JR.</h3>
+      <p></p>
+      <img src="Images/4BB8589D-4CC5-41DF-8934-502C39653E64.jpeg" alt="boy" class="w3-image" width="100%" height="1108" object-fit="contain">
+    </header>
+  
+    <!-- About Section -->
+    <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="about">
+      <h2 class="w3-text-light-grey">BIO</h2>
+      <hr style="width:200px" class="w3-opacity"> <p>Gold Medal: 2021 FIBA U19 World Cup
+    Helped the 2021 USA Basketball U19 World Cup Team to a 7-0 record and gold medal at the 2021 FIBA U19 World Cup in Riga, Latvia, averaging 9.1 ppg. and 3.3 apg. in six starts. Finished with 11 points, seven rebounds, six assists and four steals in the USA's 83-81 gold medal victory over France.</p>
+    <p> As a freshman at TCU in 2020-21, played in 25 games (21 starts) and averaged 13.6 ppg, 3.5 rpg and 3.1 apg. Was one of five freshman in the country to average at least 13 points, three rebounds and three assists per game.
+    Recorded a season-best 28 points to go with five rebounds, five assists and three seals at Missouri on Jan. 30, 2021.</p>
+   
+   <p>Led TCU in free throw percentage (82.7).
+   Led TCU in assists nine times.
+  Scored 26 points against North Dakota State (Dec. 22, 2020), the most points by a TCU freshman since the 2010-11 season.
+ During his senior season in 2019-20, led Lancaster High School (TX) to the state tournament, ending the season as the top-ranked 5A team with a record of 36-1 (12-0 in district).
+Averaged 21.4 ppg, 4.0 rpg, 4.0 apg and 3.0 steals in 2019-20.
+As a junior in 2018-19, averaged 18.0 ppg, 4.5 apg and 2.3 spg.
+Was a member of the AAU team, the Texas Titans, one of the top programs on the Nike EYBL circuit.2020 SportsDays All-Area Boys Basketball Player of the Year (Dallas Morning News).
+2020 5A Player of the Year by Texas Association of Basketball Coaches.
+2020 USA Today Boys Basketball Player of the Year in Dallas.
+2019 first-team All State
+2019 all-region
+2019 District Most Valuable Player.sh</p>
+
+
+
+     <!-- Portfolio Section -->
+  <div class="w3-padding-64 w3-content" id="photos">
+    <h2 class="w3-text-light-grey">MERCHANDISE</h2>
+    <hr style="width:200px" class="w3-opacity">
+
+
+ 
+
+    <div class="main-container">
+      <P class="title"></P>
+    </div>
+  
+  
+   
+  
+    <section class="container">
+      <div class="products">
+  
+        <div class="product Hat">
+          <img src="Images/hat.JPG" class="product__image">
+          <P class="product-title">Signature Hat</P>
+          <div class="shop-item-details">
+            <h3 class="product__price">$28.00</h3>
+            <button class="btn btn--primary ADD_TO_CART">Add to Cart</button>
+          </div>
+
+        </div>
+  
+  
+        
+  <BR>
+  
+        <div class="product T-Shirts">
+          <img src="Images/tshirt.PNG" class="product__image">
+          <h5 class="product-title">White Mikemiles Tee </h5>
+          <div class="shop-item-details">
+            <p class="product__price">$40</P>
+            <button class="btn btn--primary ADD_TO_CART">Add to Cart</button>
+          </div>
+  
+  <BR>    </div>
+        
+  
+        <div class="product T-Shirts">
+          <img src="Images/tshirt2.PNG" class="product__image">
+          <P class="product-title">Purple Mikemiles Tee </P>
+          <div class="shop-item-details">
+            <h3 class="product__price">$40</h3>
+            <button class="btn btn--primary ADD_TO_CART">Add to Cart</button>
+          </div>
+  <BR>
+  
+        </div>
+
+        <div class="product Hat">
+          <img src="Images/IMG_2482 2.JPG" class="product__image">
+          <P class="product-title">H1M Hat</P>
+          <div class="shop-item-details">
+            <h3 class="product__price">$28.00</h3>
+            <button class="btn btn--primary ADD_TO_CART">Add to Cart</button>
+          </div>
+  
+      </div>
+    </section>
+
+
+
+  <script>
+    filterSelection('all')
+    function filterSelection(c) {
+      var x, i;
+      x = document.getElementsByClassName("product");
+      if (c == "all") c = "";
+      for (i = 0; i < x.length; i++) {
+        w3RemoveClass(x[i], "show");
+        if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+      }
+    }
+
+    function w3AddClass(element, name) {
+      var i, arrl, arr2;
+      arr1 = element.className.split(" ");
+      arr2 = name.split(" ");
+      for (i = 0; i < arr2.length; i++) {
+        if (arr1.indexOf(arr2[i]) == -1) { element.className += " " + arr2[i]; }
+      }
+    }
+
+    function w3RemoveClass(element, name) {
+      var i, arr1, arr2;
+      arr1 = element.className.split(" ");
+      arr2 = name.split(" ");
+      for (i = 0; i < arr2.length; i++) {
+        while (arr1.indexOf(arr2[i]) > -1) {
+          arr1.splice(arr1.indexOf(arr2[i]), 1);
+        }
+      }
+      element.className = arr1.join(" ");
+    }
+
+    // Add active class to the current button (highlight it)
+    var btnContainer = document.getElementById("filterButtons");
+    var btns = btnContainer.getElementsByClassName("btn");
+    for (var i = 0; i < btns.length; i++) {
+      btns[i].addEventListener("click", function () {
+        var current = document.getElementsByClassName("active");
+        current[0].className = current[0].className.replace(" active", "");
+        this.className += " active";
+      });
+    }
+  </script>
+
+
+  
+
+
+    <!-- End photo grid -->
+    </div>
+  <!-- End Portfolio Section -->
+  </div>
+
+  <!-- Contact Section -->
+  <div class="w3-padding-64 w3-content w3-text-grey" id="contact">
+    <h2 class="w3-text-light-grey">Contact Me</h2>
+    <hr style="width:200px" class="w3-opacity">
+
+    <div class="w3-section">
+      <p><i class="fa fa-map-marker fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Chicago, US</p>
+      <p><i class="fa fa-phone fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Phone: +00 151515</p>
+      <p><i class="fa fa-envelope fa-fw w3-text-white w3-xxlarge w3-margin-right"> </i> Email: mail@mail.com</p>
+    </div><br>
+    <p>Let's get in touch. Send me a message:</p>
+
+    <form action="/action_page.php" target="_blank">
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Name" required name="Name"></p>
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Email" required name="Email"></p>
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Subject" required name="Subject"></p>
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Message" required name="Message"></p>
+      <p>
+        <button class="w3-button w3-light-grey w3-padding-large" type="submit">
+          <i class="fa fa-paper-plane"></i> SEND MESSAGE
+        </button>
+      </p>
+    </form>
+  <!-- End Contact Section -->
+  </div>
+  
+    <!-- Footer -->
+  <footer class="w3-content w3-padding-64 w3-text-grey w3-xlarge">
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-snapchat w3-hover-opacity"></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+    <p class="w3-medium">Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank" class="w3-hover-text-green">w3.css</a></p>
+  <!-- End footer -->
+  </footer>
+
+<!-- END PAGE CONTENT -->
+</div>
+
+</body>
+</html>
